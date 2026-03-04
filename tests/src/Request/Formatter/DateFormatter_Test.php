@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestFormatterDate_Test extends \PHPUnit_Framewor
 {
     public $dateFormatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->dateFormatter = new DateFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

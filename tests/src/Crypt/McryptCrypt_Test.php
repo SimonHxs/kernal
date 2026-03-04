@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiCryptMcrypt_Test extends \PHPUnit_Framework_TestCas
 {
     public $mcryptcrypt;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -26,7 +26,7 @@ class PhpUnderControl_PhalApiCryptMcrypt_Test extends \PHPUnit_Framework_TestCas
         $this->mcryptcrypt = new McryptCrypt();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

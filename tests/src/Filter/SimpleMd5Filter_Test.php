@@ -17,7 +17,7 @@ class PhpUnderControl_PhalApiFilterSimpleMD5_Test extends \PHPUnit_Framework_Tes
 {
     public $simpleMD5Filter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -25,7 +25,7 @@ class PhpUnderControl_PhalApiFilterSimpleMD5_Test extends \PHPUnit_Framework_Tes
         \PhalApi\DI()->filter = '\\PhalApi\\Filter\\SimpleMD5Filter';
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->filter = NULL;
     }

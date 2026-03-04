@@ -16,7 +16,7 @@ require_once dirname(__FILE__) . '/MultiPri2PubCrypt_Test.php';
 
 class PhpUnderControl_PhalApiCryptRSAPub2Pri_Test extends PhpUnderControl_PhalApiCryptRSAMultiPri2Pub_Test
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

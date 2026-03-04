@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiHelperTracer_Test extends \PHPUnit_Framework_TestCa
 {
     public $tracer;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->tracer = new Tracer();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->debug = true;
     }

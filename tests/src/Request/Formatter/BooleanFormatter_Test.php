@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestFormatterBoolean_Test extends \PHPUnit_Frame
 {
     public $booleanFormatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->booleanFormatter = new BooleanFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

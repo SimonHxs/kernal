@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiCacheMemcache_Test extends \PHPUnit_Framework_TestC
 {
     public $memcacheCache;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -23,7 +23,7 @@ class PhpUnderControl_PhalApiCacheMemcache_Test extends \PHPUnit_Framework_TestC
         $this->memcacheCache = new MemcacheCache($config);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

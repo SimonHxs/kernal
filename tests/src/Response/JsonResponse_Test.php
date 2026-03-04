@@ -18,7 +18,7 @@ class PhpUnderControl_PhalApiResponseJsonResponse_Test extends \PHPUnit_Framewor
 {
     public $phalApiResponseJsonResponse;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -29,7 +29,7 @@ class PhpUnderControl_PhalApiResponseJsonResponse_Test extends \PHPUnit_Framewor
         }
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(DI()->tracer->getSqls());

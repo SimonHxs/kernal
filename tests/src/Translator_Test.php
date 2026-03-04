@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiTranslator_Test extends \PHPUnit_Framework_TestCase
 {
     public $translator;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->translator = new Translator();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

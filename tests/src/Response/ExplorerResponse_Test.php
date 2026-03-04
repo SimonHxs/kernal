@@ -18,14 +18,14 @@ class PhpUnderControl_PhalApiResponseExplorerResponse_Test extends \PHPUnit_Fram
 {
     public $phalApiResponseExplorerResponse;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->phalApiResponseExplorerResponse = new PhalApi\Response\ExplorerResponse();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(DI()->tracer->getSqls());

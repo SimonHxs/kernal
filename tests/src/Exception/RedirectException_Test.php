@@ -18,14 +18,14 @@ class PhpUnderControl_PhalApiExceptionRedirectException_Test extends \PHPUnit_Fr
 {
     public $phalApiExceptionRedirectException;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->phalApiExceptionRedirectException = new PhalApi\Exception\RedirectException('test', 0);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(DI()->tracer->getSqls());

@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiConfigFile_Test extends \PHPUnit_Framework_TestCase
 {
     public $fileConfig;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->fileConfig = new FileConfig(dirname(__FILE__) . '/../../config');
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

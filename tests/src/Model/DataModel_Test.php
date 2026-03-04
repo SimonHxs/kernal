@@ -20,14 +20,14 @@ class PhpUnderControl_PhalApiModelDataModel_Test extends \PHPUnit\Framework\Test
 {
     public $phalApiModelDataModel;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->phalApiModelDataModel = new DemoInnerDataModel(); // \PhalApi\Model\DataModel();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(\PhalApi\DI()->tracer->getSqls());

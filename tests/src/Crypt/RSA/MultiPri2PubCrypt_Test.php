@@ -20,7 +20,7 @@ class PhpUnderControl_PhalApiCryptRSAMultiPri2Pub_Test extends \PHPUnit_Framewor
 
     public $pubkey;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -40,7 +40,7 @@ class PhpUnderControl_PhalApiCryptRSAMultiPri2Pub_Test extends \PHPUnit_Framewor
         $this->multiPri2PubCrypt = new MultiPri2PubCrypt();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

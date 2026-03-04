@@ -16,14 +16,14 @@ class PhpUnderControl_PhalApiModelProxy_Test extends \PHPUnit_Framework_TestCase
 {
     public $proxy;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->proxy = new ProxyMock();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

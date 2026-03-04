@@ -18,7 +18,7 @@ class PhpUnderControl_PhalApiRedis_Test extends \PHPUnit_Framework_TestCase
 {
     public $phalApiRedis;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -26,7 +26,7 @@ class PhpUnderControl_PhalApiRedis_Test extends \PHPUnit_Framework_TestCase
         $this->phalApiRedis = new RedisCache($config);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

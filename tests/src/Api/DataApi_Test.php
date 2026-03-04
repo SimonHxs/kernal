@@ -28,7 +28,7 @@ class PhpUnderControl_PhalApiApiDataApi_Test extends \PHPUnit\Framework\TestCase
 {
     public $phalApiApiDataApi;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -36,7 +36,7 @@ class PhpUnderControl_PhalApiApiDataApi_Test extends \PHPUnit\Framework\TestCase
         //\PhalApi\Api\DataApi();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(\PhalApi\DI()->tracer->getSqls());

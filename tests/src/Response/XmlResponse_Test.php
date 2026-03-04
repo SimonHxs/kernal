@@ -12,14 +12,14 @@ class PhpUnderControl_PhalApiResponseXmlResponse_Test extends \PHPUnit_Framework
 {
     public $phalApiResponseXmlResponse;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->phalApiResponseXmlResponse = new PhalApi\Response\XmlResponse();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // 输出本次单元测试所执行的SQL语句
         // var_dump(DI()->tracer->getSqls());

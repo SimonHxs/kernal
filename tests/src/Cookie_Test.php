@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiCookie_Test extends \PHPUnit_Framework_TestCase
 {
     public $cookie;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->cookie = new Cookie();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

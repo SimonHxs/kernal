@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiDI_Test extends \PHPUnit_Framework_TestCase
 {
     public $di;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->di = new DependenceInjection();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

@@ -20,12 +20,12 @@ class PhpUnderControl_PhalApiApiFactory_Test extends \PHPUnit_Framework_TestCase
 {
     public $coreApiFactory;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->filter = NULL;
     }

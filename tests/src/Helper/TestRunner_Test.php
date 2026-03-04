@@ -17,14 +17,14 @@ class PhpUnderControl_PhalApiHelperTestRunner_Test extends \PHPUnit_Framework_Te
 {
     public $testRunner;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->testRunner = new TestRunner();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

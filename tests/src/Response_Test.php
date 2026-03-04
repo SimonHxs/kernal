@@ -13,14 +13,14 @@ class PhpUnderControl_PhalApiResponse_Test extends \PHPUnit_Framework_TestCase
 {
     public $response;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->response = new JsonResponseMock();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

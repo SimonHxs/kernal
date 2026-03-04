@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiTool_Test extends \PHPUnit_Framework_TestCase
 {
     public $tool;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->tool = new Tool();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

@@ -16,14 +16,14 @@ class PhpUnderControl_PhalApiCryptRSAPri2Pub_Test extends \PHPUnit_Framework_Tes
 {
     public $phalApiCryptRSAPri2Pub;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->phalApiCryptRSAPri2Pub = new Pri2PubCrypt();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

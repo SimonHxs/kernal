@@ -18,7 +18,7 @@ class PhpUnderControl_PhalApi_Test extends \PHPUnit_Framework_TestCase
 {
     public $phalApi;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -31,7 +31,7 @@ class PhpUnderControl_PhalApi_Test extends \PHPUnit_Framework_TestCase
         $this->phalApi = new PhalApi();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->response = '\\PhalApi\\Response\\JsonResponse';
     }

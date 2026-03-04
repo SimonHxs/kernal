@@ -17,7 +17,7 @@ class PhpUnderControl_PhalApiCacheMulti_Test extends \PHPUnit_Framework_TestCase
 {
     public $multiCache;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -28,7 +28,7 @@ class PhpUnderControl_PhalApiCacheMulti_Test extends \PHPUnit_Framework_TestCase
         $this->multiCache->addCache($fileCache);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

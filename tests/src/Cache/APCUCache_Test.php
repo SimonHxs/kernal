@@ -18,7 +18,7 @@ class PhpUnderControl_PhalApi_Cache_APCU_Test extends \PHPUnit_Framework_TestCas
 {
     public $aPCU;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -27,7 +27,7 @@ class PhpUnderControl_PhalApi_Cache_APCU_Test extends \PHPUnit_Framework_TestCas
         $this->aPCU->delete('apcu_test_key');
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

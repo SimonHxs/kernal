@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestFormatterFile_Test extends \PHPUnit_Framewor
 {
     public $fileFormatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->fileFormatter = new FileFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

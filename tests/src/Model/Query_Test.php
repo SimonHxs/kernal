@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiModelQuery_Test extends \PHPUnit_Framework_TestCase
 {
     public $query;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -24,7 +24,7 @@ class PhpUnderControl_PhalApiModelQuery_Test extends \PHPUnit_Framework_TestCase
         $this->query = new Query();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->debug = true;
     }

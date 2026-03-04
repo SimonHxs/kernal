@@ -17,14 +17,14 @@ class PhpUnderControl_PhalApiDBNotORM_Test extends \PHPUnit_Framework_TestCase
 {
     public $notorm;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->notorm = new NotORMDatabase(\PhalApi\DI()->config->get('dbs'), true);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         // var_dump(\PhalApi\DI()->tracer->getSqls());
     }

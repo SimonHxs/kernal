@@ -26,13 +26,13 @@ class PhpUnderControl_PhalApiHelperApiList_Test extends TestCase
 {
     public $api;
 
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
         $this->api = new ApiList('PhalApi Test');
         $this->apiCreate = new ApiStaticCreate('PhalApi Test');
     }
 
-    protected function tearDown() {
+    protected function tearDown(): void {
     }
 
 

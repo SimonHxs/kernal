@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiCacheNone_Test extends \PHPUnit_Framework_TestCase
 {
     public $noneCache;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->noneCache = new NoneCache();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

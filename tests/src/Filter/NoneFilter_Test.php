@@ -18,14 +18,14 @@ class PhpUnderControl_PhalApiFilterNone_Test extends \PHPUnit_Framework_TestCase
 {
     public $noneFilter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->noneFilter = new NoneFilter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

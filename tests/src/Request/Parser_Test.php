@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestVar_Test extends \PHPUnit_Framework_TestCase
 {
     public $parser;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->parser = new Parser();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

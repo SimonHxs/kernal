@@ -18,14 +18,14 @@ class PhpUnderControl_PhalApiApi_Test extends \PHPUnit_Framework_TestCase
 {
     public $api;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->api = new Api();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \PhalApi\DI()->filter = NULL;
     }

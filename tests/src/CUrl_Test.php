@@ -18,14 +18,14 @@ class PhpUnderControl_PhalApiCUrl_Test extends \PHPUnit_Framework_TestCase
 
     public $apiHost = 'http://demo.phalapi.net';
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->curl = new CUrl(3);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

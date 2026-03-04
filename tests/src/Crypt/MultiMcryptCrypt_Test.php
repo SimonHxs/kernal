@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiMultiCryptMcrypt_Test extends \PHPUnit_Framework_Te
 {
     public $multiMcryptCrypt;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -26,7 +26,7 @@ class PhpUnderControl_PhalApiMultiCryptMcrypt_Test extends \PHPUnit_Framework_Te
         $this->multiMcryptCrypt = new MultiMcryptCrypt('12345678');
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

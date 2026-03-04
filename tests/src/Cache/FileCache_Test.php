@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiCacheFile_Test extends \PHPUnit_Framework_TestCase
 {
     public $phalApiCacheFile;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -26,7 +26,7 @@ class PhpUnderControl_PhalApiCacheFile_Test extends \PHPUnit_Framework_TestCase
         $this->phalApiCacheFile = new FileCache($config);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

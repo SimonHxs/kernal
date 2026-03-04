@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestFormatterEnum_Test extends \PHPUnit_Framewor
 {
     public $enumFomatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->enumFomatter = new EnumFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

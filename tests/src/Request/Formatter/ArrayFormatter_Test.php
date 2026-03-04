@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiRequestFormatterArray_Test extends \PHPUnit_Framewo
 {
     public $arrayFormatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->arrayFormatter = new ArrayFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

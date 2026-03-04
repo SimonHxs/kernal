@@ -15,7 +15,7 @@ class PhpUnderControl_PhalApiRequest_Test extends \PHPUnit_Framework_TestCase
 {
     public $request;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -23,7 +23,7 @@ class PhpUnderControl_PhalApiRequest_Test extends \PHPUnit_Framework_TestCase
         $this->request = new Request($data);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

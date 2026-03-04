@@ -17,7 +17,7 @@ class PhpUnderControl_PhalApiConfigYaconf_Test extends \PHPUnit_Framework_TestCa
 {
     public $phalApiConfigYaconf;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -31,7 +31,7 @@ class PhpUnderControl_PhalApiConfigYaconf_Test extends \PHPUnit_Framework_TestCa
         $this->phalApiConfigYaconf = new YaconfConfig();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

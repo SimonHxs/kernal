@@ -16,7 +16,7 @@ class PhpUnderControl_PhalApiCookieMulti_Test extends \PHPUnit_Framework_TestCas
 {
     public $multiCookie;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -24,7 +24,7 @@ class PhpUnderControl_PhalApiCookieMulti_Test extends \PHPUnit_Framework_TestCas
         $this->multiCookie = new MultiCookie($config);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

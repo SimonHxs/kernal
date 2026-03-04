@@ -16,7 +16,7 @@ class PhpUnderControl_PhalApiLoggerExplorer_Test extends \PHPUnit_Framework_Test
 {
     public $explorerLogger;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -24,7 +24,7 @@ class PhpUnderControl_PhalApiLoggerExplorer_Test extends \PHPUnit_Framework_Test
             Logger::LOG_LEVEL_DEBUG | Logger::LOG_LEVEL_INFO | Logger::LOG_LEVEL_ERROR);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

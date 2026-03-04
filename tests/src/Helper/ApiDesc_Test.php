@@ -19,12 +19,12 @@ class PhpUnderControl_PhalApiHelperApiDesc_Test extends \PHPUnit_Framework_TestC
 {
     public $apiDesc;
 
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
         $this->apiDesc = new ApiDesc('PhalApi Test');
     }
 
-    protected function tearDown() {
+    protected function tearDown(): void {
     }
 
 

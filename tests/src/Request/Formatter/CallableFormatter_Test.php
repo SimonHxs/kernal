@@ -19,14 +19,14 @@ class PhpUnderControl_PhalApiRequestFormatterCallable_Test extends \PHPUnit_Fram
 {
     public $callableFormatter;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->callableFormatter = new CallableFormatter();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 

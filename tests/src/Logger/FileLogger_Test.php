@@ -16,7 +16,7 @@ class PhpUnderControl_PhalApiLoggerFile_Test extends \PHPUnit_Framework_TestCase
 {
     public $coreLoggerFile;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -27,7 +27,7 @@ class PhpUnderControl_PhalApiLoggerFile_Test extends \PHPUnit_Framework_TestCase
             Logger::LOG_LEVEL_DEBUG | Logger::LOG_LEVEL_INFO | Logger::LOG_LEVEL_ERROR);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $cmd = sprintf('rm %s -rf', dirname(__FILE__) . '/runtime');
         shell_exec($cmd);

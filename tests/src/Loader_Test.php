@@ -15,14 +15,14 @@ class PhpUnderControl_PhalApiLoader_Test extends \PHPUnit_Framework_TestCase
 {
     public $loader;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
         $this->loader = new Loader(dirname(__FILE__));
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 
