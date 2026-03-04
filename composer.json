@@ -21,7 +21,7 @@
   ],
   "require": {
     "php": ">=5.3.3",
-    "phalapi/notorm": "joy"
+    "phalapi/notorm": "dev-joy"
   },
   "autoload": {
     "files": [
